@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:school/screens/firstTermView.dart';
+import 'package:school/screens/pocket_money.dart';
 
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  FirstTermView(),
+      home:const PocketMoneyView(),
     );
   }
 }
